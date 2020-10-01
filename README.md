@@ -40,7 +40,7 @@ def calculate_frequencies(file_contents):
 
         #wordcloud
     cloud = wordcloud.WordCloud()
-    cloud.generate_from_frequencies(freq)
+    cloud.generate_from_frequencie(freq)
     return cloud.to_array()
 
 
