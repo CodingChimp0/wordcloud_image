@@ -29,7 +29,7 @@ def calculate_frequencies(file_contents):
 
     for word in file:
         if word.lower() not in uninteresting_words and word.isalpha()==True:
-            temp.apend(word)
+            temp.append(word)
     freq={}
 
     for word in temp:
