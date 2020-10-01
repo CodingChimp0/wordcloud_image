@@ -29,7 +29,7 @@ def calculate_frequencies(file_contents):
 
     for word in file:
         if word.lower() not in uninteresting_words and word.isalpha()==True:
-            temp.apend(word)
+            temp.append(word)
     freq={}
 
     for word in temp:
@@ -44,7 +44,7 @@ def calculate_frequencies(file_contents):
     return cloud.to_array()
 
 
-# Display your wordcloud image
+# Display your wordcloud image where words belong to file_contents
 
 myimage = calculate_frequencies(file_contents)
 plt.imshow(myimages, interpolation = 'nearest')
