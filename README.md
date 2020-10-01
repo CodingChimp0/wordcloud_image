@@ -47,6 +47,6 @@ def calculate_frequencies(file_contents):
 # Display your wordcloud image where words belong to file_contents
 
 myimage = calculate_frequencies(file_contents)
-plt.imshow(myimages, interpolation = 'nearest')
+plt.imshow(myimage, interpolation = 'nearest')
 plt.axis('off')
 plt.show()
