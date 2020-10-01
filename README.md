@@ -1,8 +1,6 @@
 # wordcloud_image
 
 import wordcloud
-import numpy as np
-from matplotlib import pyplot as plt
 from IPython.display import display
 import io
 import sys
